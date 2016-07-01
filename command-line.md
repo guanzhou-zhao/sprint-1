@@ -12,6 +12,6 @@ rm -r: rm a directory recursively
 cp: copy a file or cp -r to copy a directory
 mv: move a file or directory
 echo: print string to stdout
->: redirect output 
->>: append to 
-| : left command output as second command's input
+/   >: redirect output 
+/   >>: append to 
+/   | : left command output as second command's input
